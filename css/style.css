@@ -1,4 +1,11 @@
 /****** General Styles *********/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 main {
   width: 85%;
   margin: 0 auto;
