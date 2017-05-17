@@ -1,0 +1,96 @@
+/****** General Styles *********/
+main {
+  width: 85%;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+header{
+  text-align: center;
+  margin: 50px auto;
+}
+
+h1{
+text-transform:uppercase;
+}
+p{
+  font-family: serif;
+  font-size:12px;
+  
+}
+a {
+  color: black;
+  font-weight: bold;
+}
+
+/****** Header Style *********/
+.wrapper {
+  margin:30px;
+  font-family:Arial;
+  border-top:10px solid black;
+  border-bottom: 10px solid black;
+}
+.clearfix {
+  overflow: auto;
+
+}
+.name{
+  text-transform:uppercase;
+}
+.intro p{
+  width: 50%;
+  float:left;
+  padding-right: 0px;
+  margin: 30px auto 50px auto;
+}
+.intro h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/****** Navigation Style *********/
+.pages ul {
+  margin-bottom: 10px;
+  padding: 0;
+}
+.pages ul li{
+  display:inline-block;
+  margin-bottom: 10px;
+}
+.profile_pic{
+  float:right;
+  width: 40%;
+  overflow: scroll;
+  resize: both;
+  max-width: 300px;
+  max-height: 460px;
+  
+}
+[draggable=true] {
+    cursor: move;
+}
+.profile_pic img{
+  width: 280px;
+  height: 280px;
+  padding: 5px;
+  border: 1px solid black;
+  
+}
+.one {
+  font-style: italic;
+}
+.two {
+  font-style: italic;
+}
+
+/****** Footer Style *********/
+.links{
+  text-align: center;
+  margin: 30px auto 50px auto;
+}
+.links ul li {
+  display: inline-block;
+}
